@@ -1,8 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import {LoginSpidGrid} from '../screens/LoginSpidGrid';
-import {SpidIdp} from '../utils/SpidIdp';
+import {LoginSpidGrid} from '../LoginSpidGrid';
+import {SpidIdp} from '../../utils/SpidIdp';
 
 const generateIdps = (): Array<SpidIdp> => {
   return [
