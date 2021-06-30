@@ -1,5 +1,509 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`renders correctly with custom template 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "padding": 20,
+    }
+  }
+>
+  <RCTScrollView
+    bounces={false}
+    data={
+      Array [
+        Object {
+          "id": "arubaid",
+          "logo": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/spid/idps/spid-idp-arubaid.png",
+          "name": "Aruba",
+          "profileUrl": "http://selfcarespid.aruba.it",
+        },
+        Object {
+          "id": "infocertid",
+          "logo": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/spid/idps/spid-idp-infocertid.png",
+          "name": "Infocert",
+          "profileUrl": "https://my.infocert.it/selfcare",
+        },
+        Object {
+          "id": "intesaid",
+          "logo": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/spid/idps/spid-idp-intesaid.png",
+          "name": "Intesa",
+          "profileUrl": "https://spid.intesa.it",
+        },
+        Object {
+          "id": "lepidaid",
+          "logo": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/spid/idps/spid-idp-lepidaid.png",
+          "name": "Lepida",
+          "profileUrl": "https://id.lepida.it/",
+        },
+        Object {
+          "id": "namirialid",
+          "logo": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/spid/idps/spid-idp-namirialid.png",
+          "name": "Namirial",
+          "profileUrl": "https://idp.namirialtsp.com/idp",
+        },
+        Object {
+          "id": "posteid",
+          "logo": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/spid/idps/spid-idp-posteid.png",
+          "name": "Poste",
+          "profileUrl": "https://posteid.poste.it/private/cruscotto.shtml",
+        },
+        Object {
+          "id": "sielteid",
+          "logo": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/spid/idps/spid-idp-sielteid.png",
+          "name": "Sielte",
+          "profileUrl": "https://myid.sieltecloud.it/profile/",
+        },
+        Object {
+          "id": "spiditalia",
+          "logo": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/spid/idps/spid-idp-spiditalia.png",
+          "name": "SPIDItalia Register.it",
+          "profileUrl": "https://spid.register.it",
+        },
+        Object {
+          "id": "timid",
+          "logo": "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/spid/idps/spid-idp-timid.png",
+          "name": "Telecom Italia",
+          "profileUrl": "https://id.tim.it/identity/private/",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "red",
+                    "padding": 10,
+                  }
+                }
+              >
+                <Text>
+                  Aruba
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "red",
+                    "padding": 10,
+                  }
+                }
+              >
+                <Text>
+                  Infocert
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "red",
+                    "padding": 10,
+                  }
+                }
+              >
+                <Text>
+                  Intesa
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "red",
+                    "padding": 10,
+                  }
+                }
+              >
+                <Text>
+                  Lepida
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "red",
+                    "padding": 10,
+                  }
+                }
+              >
+                <Text>
+                  Namirial
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "red",
+                    "padding": 10,
+                  }
+                }
+              >
+                <Text>
+                  Poste
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "red",
+                    "padding": 10,
+                  }
+                }
+              >
+                <Text>
+                  Sielte
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "red",
+                    "padding": 10,
+                  }
+                }
+              >
+                <Text>
+                  SPIDItalia Register.it
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                  "padding": 10,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "red",
+                    "padding": 10,
+                  }
+                }
+              >
+                <Text>
+                  Telecom Italia
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
 exports[`renders correctly with defaults 1`] = `
 <View
   style={
