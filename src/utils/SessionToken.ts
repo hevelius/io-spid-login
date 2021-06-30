@@ -3,7 +3,7 @@
  */
 
 interface ISessionTokenTag {
-  kind: "session-token";
+  kind: 'session-token';
 }
 
 export type SessionToken = string & ISessionTokenTag;
