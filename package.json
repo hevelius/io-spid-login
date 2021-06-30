@@ -1,6 +1,6 @@
 {
   "name": "io-spid-login",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "A react-native component to simplify spid login process",
   "main": "./dist/index.js",
   "license": "Apache-2.0",
@@ -20,24 +20,37 @@
     "@babel/runtime": "^7.14.6",
     "@react-native-community/eslint-config": "^3.0.0",
     "@types/jest": "^26.0.23",
+    "@types/lodash": "^4.14.170",
     "@types/react": "^17.0.11",
     "@types/react-native": "^0.64.10",
     "@types/react-test-renderer": "^17.0.1",
     "babel-jest": "^26.6.3",
     "eslint": "^7.29.0",
+    "fp-ts": "1.12.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
+    "lodash": "^4.17.21",
     "metro-react-native-babel-preset": "^0.66.0",
+    "react": "^17.0.1",
+    "react-native": "^0.64.1",
+    "react-native-webview": "^11.6.4",
     "react-test-renderer": "^17.0.2",
     "ts-jest": "^27.0.3",
-    "typescript": "^4.3.4"
+    "typescript": "^4.3.4",
+    "url-parse": "^5.0.7",
+    "@types/url-parse": "^1.4.3"
   },
   "resolutions": {
     "@types/react": "^17"
   },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-native": "^0.64.2",
-    "react-native-webview": "^11.6.4"
+  "peerDependencies": {
+    "@types/lodash": "^4.14.170",
+    "fp-ts": "1.12.0",
+    "lodash": "^4.17.21",
+    "react": "^*",
+    "react-native": "*",
+    "react-native-webview": "*",
+    "url-parse": "^5.0.7",
+    "@types/url-parse": "^1.4.3"
   }
 }

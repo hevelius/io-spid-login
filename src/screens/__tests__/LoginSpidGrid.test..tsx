@@ -64,8 +64,8 @@ const generateIdps = (): Array<SpidIdp> => {
 };
 
 it('renders correctly with defaults', () => {
-  const button = renderer
+  const idpgrid = renderer
     .create(<LoginSpidGrid idps={generateIdps()} cols={2} />)
     .toJSON();
-  expect(button).toMatchSnapshot();
+  expect(idpgrid).toMatchSnapshot();
 });
