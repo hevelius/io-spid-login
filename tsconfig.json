@@ -23,6 +23,7 @@
     "node_modules",
     "jest.config.js",
     "dist",
-    "**/__tests__/*"
+    "**/__tests__/*",
+    "**/__coverage__/*"
   ]
 }
