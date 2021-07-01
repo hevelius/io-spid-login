@@ -10,6 +10,7 @@ integrate spid login in your react-native app
 
 ```
 yarn add io-spid-login
+yarn add @types/lodash@^4.14.170 @types/url-parse@^1.4.3 fp-ts@1.12.0 lodash@^4.17.21 react-native-webview@10.4.0 url-parse@^1.5.1
 ```
 
 ## How it works
