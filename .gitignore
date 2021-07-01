@@ -14,6 +14,7 @@ node_modules
 # Jest
 #
 .jest/
-__coverage__
+coverage
+
 # VSCode
 .vscode

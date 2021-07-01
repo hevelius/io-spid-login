@@ -10,5 +10,5 @@ module.exports = {
     'node_modules/(?!@react-native|react-native)'
   ],
   collectCoverage: true,
-  coverageDirectory: "__coverage__"
+  coverageDirectory: "coverage"
 }
