@@ -23,7 +23,7 @@ export class LoginSpidGrid extends Component<Props> {
   }
 
   private onIdpSelected = (idp: SpidIdp): void => {
-    this.props.idpSelected ? this.props.idpSelected(idp.profileUrl) : undefined;
+    this.props.idpSelected ? this.props.idpSelected(idp.id) : undefined;
   };
 
   render() {
