@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text} from 'react-native';
-import renderer from 'react-test-renderer';
+import {render} from '@testing-library/react-native';
 
 import {LoginSpidGrid} from '../LoginSpidGrid';
 import {SpidIdp} from '../../utils/SpidIdp';
@@ -64,29 +64,34 @@ const generateIdps = (): Array<SpidIdp> => {
   ];
 };
 
-it('renders correctly with defaults', () => {
-  const idpgrid = renderer
-    .create(<LoginSpidGrid idps={generateIdps()} cols={2} />)
-    .toJSON();
-  expect(idpgrid).toMatchSnapshot();
+describe('LoginSpidGrid component', () => {
+  const options = {
+    idps: generateIdps(),
+    cols: 2,
+  };
+
+  it('should match the snapshot', () => {
+    const component = renderComponent(options);
+    expect(component.toJSON()).toMatchSnapshot();
+  });
+
+  it('should renders correctly with custom template', () => {
+    const templateGenerator = (item: SpidIdp): React.ReactElement => {
+      return (
+        <View style={{padding: 10, backgroundColor: 'red'}}>
+          <Text>{item.name}</Text>
+        </View>
+      );
+    };
+
+    const component = renderComponent({
+      ...options,
+      template: templateGenerator,
+    });
+    expect(component.toJSON()).toMatchSnapshot();
+  });
 });
 
-it('renders correctly with custom template', () => {
-  const templateGenerator = (item: SpidIdp): React.ReactElement => {
-    return (
-      <View style={{padding: 10, backgroundColor: 'red'}}>
-        <Text>{item.name}</Text>
-      </View>
-    );
-  };
-  const idpgridtemplate = renderer
-    .create(
-      <LoginSpidGrid
-        idps={generateIdps()}
-        cols={2}
-        template={templateGenerator}
-      />,
-    )
-    .toJSON();
-  expect(idpgridtemplate).toMatchSnapshot();
-});
+function renderComponent(options: any) {
+  return render(<LoginSpidGrid {...options} />);
+}
