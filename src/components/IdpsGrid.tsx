@@ -41,10 +41,11 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
   },
   container: {
-    flex: 1,
+    flex: 0.5,
   },
   button: {
     padding: 10,
+    alignItems: 'center',
   },
 });
 

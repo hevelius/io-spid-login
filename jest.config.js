@@ -9,6 +9,7 @@ module.exports = {
   transformIgnorePatterns: [
     'node_modules/(?!@react-native|react-native)'
   ],
+  modulePathIgnorePatterns: ["<rootDir>/dist/"],
   collectCoverage: true,
   coverageDirectory: "coverage"
 }
