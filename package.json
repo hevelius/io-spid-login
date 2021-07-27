@@ -1,6 +1,6 @@
 {
   "name": "io-spid-login",
-  "version": "0.0.10",
+  "version": "1.0.0",
   "description": "A react-native component to simplify spid login process",
   "main": "./dist/index.js",
   "license": "Apache-2.0",
