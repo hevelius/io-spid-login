@@ -2,6 +2,8 @@
 
 integrate spid login in your react-native app
 
+![node workflow](https://github.com/hevelius/io-spid-login/actions/workflows/node.yml/badge.svg)
+
 ## Requirements
 
 -
